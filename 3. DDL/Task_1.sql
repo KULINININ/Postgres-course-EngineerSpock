@@ -91,6 +91,9 @@ ADD CONSTRAINT CHK_unit_price CHECK (unit_price > 0)
 
 -- 12
 
+
+-- 12
+
 SELECT MAX(product_id) FROM products; --78
 
 CREATE SEQUENCE IF NOT EXISTS products_product_id_seq
